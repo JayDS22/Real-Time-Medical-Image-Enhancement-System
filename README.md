@@ -1,4 +1,4 @@
-# Real-Time Medical Image Enhancement System
+# Medical Image Enhancement System
 
 ## 🏥 Project Overview
 
