@@ -1,0 +1,33 @@
+{
+  "description": "Train/validation/test split for medical imaging dataset",
+  "created_date": "2025-10-04",
+  "total_samples": 100,
+  "splits": {
+    "train": {
+      "count": 70,
+      "percentage": 0.7
+    },
+    "validation": {
+      "count": 15,
+      "percentage": 0.15
+    },
+    "test": {
+      "count": 15,
+      "percentage": 0.15
+    }
+  },
+  "train_files": [
+    "data/processed/sample_001.nii.gz",
+    "data/processed/sample_002.nii.gz",
+    "data/processed/sample_003.nii.gz"
+  ],
+  "validation_files": [
+    "data/processed/sample_071.nii.gz",
+    "data/processed/sample_072.nii.gz"
+  ],
+  "test_files": [
+    "data/processed/sample_086.nii.gz",
+    "data/processed/sample_087.nii.gz"
+  ],
+  "instructions": "This is a template. Replace with actual file paths after preprocessing."
+}
